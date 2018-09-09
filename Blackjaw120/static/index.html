@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>BlackJaw</title>
+<link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<link rel="icon" type="image/png" href="/favicon.png">
+<script type="text/javascript">
+    window.alert = function(){};
+    var defaultCSS = document.getElementById('bootstrap-css');
+    function changeCSS(css){
+        if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+        else $('head > link').filter(':first').replaceWith(defaultCSS); 
+    }
+    $( document ).ready(function() {
+      var iframe_height = parseInt($('html').height()); 
+      window.parent.postMessage( iframe_height, 'https://bootsnipp.com');
+    });
+</script>
+<script type="text/javascript">
+    window.alert = function(){};
+    var defaultCSS = document.getElementById('bootstrap-css');
+    function changeCSS(css){
+        if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+        else $('head > link').filter(':first').replaceWith(defaultCSS); 
+    }
+    $( document ).ready(function() {
+      var iframe_height = parseInt($('html').height()); 
+      window.parent.postMessage( iframe_height, 'https://bootsnipp.com');
+    });
+</script>
+
+
+</head>
+<body>
+
+  <div class='container'>
+    <h1>BlackJaw - Private Online Pocker Game Platform</h1>
+    <div class='navbar navbar-inverse'>
+      <div class='navbar-inner nav-collapse' style="height: auto;">
+        <ul class="nav">
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="/members">Members</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id='content' class='row-fluid'>
+    <div class='span2 sidebar'>
+        <h3>Pocker Hands</h3>
+        <ul class="nav nav-tabs nav-stacked">
+          <li><a href='#'>ROYAL FLUSH</a></li>
+          <li><a href='#'>4 OF A KIND</a></li>
+          <li><a href='#'>FULL HOUSE</a></li>
+        </ul>
+      </div>
+      <div class='span8 main'>
+        <h2>About the Game ..</h2>
+        <p>At BlackJaw, you can enjoy all of your favorite poker games with thousands of other players twenty-four hours a day. The greatest benefit to you is that you can always find full tables in any game at just about any limit you want to play.</p>
+        <p> We offer the most poker games anywhere online, so you are sure to find an exciting, fun game of poker whether you are a lover of Hold them, Stud, Draw and more. And if you are new to a game we will tell you all you need to know to get started. If you want to learn the basics, or are looking for a quick reminder, try our interactive tutorial now - you will be up and running in no time at all!</p>
+        <b>COMING SOOON ....</b>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

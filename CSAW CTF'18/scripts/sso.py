@@ -86,3 +86,5 @@ if __name__ == '__main__':
     print ">> Sending request to /protected ...."
     FLAG = getProtected(final_token)
     print "> FLAG : ", FLAG
+	
+# flag{JsonWebTokensaretheeasieststorage-lessdataoptiononthemarket!theyrelyonsupersecureblockchainlevelencryptionfortheirmethods}

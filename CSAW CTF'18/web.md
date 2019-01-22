@@ -4,7 +4,7 @@
 
 Points : 50
 
-Sovled: **432 / 1448**
+Solved: **432 / 1448**
 
 Tags: **Blind, Ldap injection**
 

@@ -24,7 +24,7 @@ Link: **http://web.chal.csaw.io:8080**
 
 Points: 100
 
-Sovled: **210 / 1448
+Solved: **210 / 1448
 How to solve ?**
 
 Tags: **Blackbox, Oauth2, Signle Sign On, JWT token**

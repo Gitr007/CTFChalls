@@ -109,7 +109,7 @@ Content-Length: 369
 
 5. Flag: `flag{JsonWebTokensaretheeasieststorage-lessdataoptiononthemarket!theyrelyonsupersecureblockchainlevelencryptionfortheirmethods}`
 
-6. Code python for solve challenge: [here](./resource_web/sso.py)
+6. Code python for solve challenge: [here](./scripts/sso.py)
 
 ```
 $ Request to oauth2/authorize ...

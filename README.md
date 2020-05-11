@@ -1,2 +1,2 @@
 # CTFChalls
-CTF challenges, writeups and CTF stuff anyways ..
+CTF challenges, writeups, CTF material in general..
